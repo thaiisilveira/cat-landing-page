@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.inicio{
+    flex-wrap: wrap;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(232, 79, 94);
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.linksmiau{
+    display: flex;
+    font-family:"Roboto","Times New Roman",sans-serif;
+    font-size: 20px;
+    gap: 25px;
+}
+
+.linkmiau {
+    color: rgb(252, 223, 197);
+}
+
+h1{
+    color: rgb(252, 223, 197);
+    font-family: "Englebert", "Times New Roman", sans-serif;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none
+}
+
+a:hover{
+    color: rgb(169, 255, 160);
+}
+
+.gatosinfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    font-size: 18px;
+    font-family: "Roboto","Times New Roman", sans-serif;
+    background-color: rgb(232, 79, 94);
+    
+    
+}
+
+.info1{
+    color: rgb(252, 223, 197);
+    font-size: 20px;
+}
+
+h2{
+    color: rgb(169, 255, 160);
+    font-size: 30px;
+}
+
+.cinza2 {
+  height: 200px;
+  max-width: 300px;
+  display: flex;
+  
+}
+
+.botao{
+    font-family: "Roboto" "Times New Roman", sans-serif;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(232, 79, 94);
+    border-radius: 10%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.mais-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: "Englebert", "Times New Roman", sans-serif;
+    color: rgb(232, 79, 94);
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.texto{
+display: flex;
+justify-content: flex-start;
+margin-top: 10px;
+color: rgb(157, 96, 255);
+font-family:"Roboto" "Times New Roman", sans-serif;
+font-size: 18px;
+}
+
+img{
+    max-width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.frase{
+    background-color: rgb(253, 207, 211);
+    padding: 28px;
+}
+
+    .mais-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 22px;
+    padding: 20px;
+    font-family:"Roboto" "Times New Roman", sans-serif;
+    color: rgb(255, 108, 123);
+}
+
+.autorfrase{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(169, 255, 160);
+    font-family:"Roboto" "Times New Roman", sans-serif;
+    margin-bottom: 18px;
+    color:rgb(255, 92, 92);
+   
+}
+
+.final{
+    background-color: rgb(169, 255, 160);
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.chame-gatos{
+    padding: 30px 40px;
+    display: flex;
+    
+}
+
+.botao-contato{
+    align-self: center;
+    padding-left: 60px;
+
+}
+
+.contato{
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(232, 79, 94);
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+h3 {
+    font-family: "Roboto" "Times New Roman", sans-serif;
+    color: rgb(232, 79, 94);
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.texto-equipe{
+    font-family: "Roboto" "Times New Roman", sans-serif;
+    color: rgb(157, 96, 255);
+    font-size: 19px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: "Englebert", "Times New Roman", sans-serif;
+    background-color: rgb(232, 79, 94);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    gap: 5px;
+}
+
+.github{
+    color: rgb(96, 255, 122);
+}
